@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .login-container {
+    margin-top: 50px;
+  }
+  .login-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .login-left {
+    height: 100%;
+  }
+  .login-right {
+    background-image: url('https://www.bhinneka.com/blog/wp-content/uploads/2023/11/manajemen-armada-500x313.jpg'); /* Ganti dengan URL gambar mobil Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-header h3 {
+    color: #dc3545; /* Warna merah */
+  }
+  .login-form .form-control {
+    border-radius: 20px;
+    padding-left: 40px;
+  }
+  .login-form .input-group-text {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+    border-radius: 20px 0 0 20px;
+  }
+  .login-form .btn-login {
+    background-color: #dc3545; /* Warna merah */
+    border-color: #dc3545; /* Warna merah */
+    color: #ffffff;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  .login-form .btn-login:hover {
+    background-color: #c82333; /* Warna merah yang sedikit lebih gelap */
+    border-color: #c82333; /* Warna merah yang sedikit lebih gelap */
+  }
+  .login-form .btn-group-toggle .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  .login-form .btn-group-toggle .btn.active {
+    background-color: #dc3545; /* Warna merah */
+    border-color: #dc3545; /* Warna merah */
+  }
